@@ -1,6 +1,6 @@
-# C++ vs Python Syntax Comparison
+# C++ and Python Syntax
 
-Comments
+## Comments
 ```
 // -  Single line comment
 
@@ -16,7 +16,7 @@ Comments
 """
 ```
 
-Variables
+## Variables
 ```
 int myNum = 15;
 string myText = "Hello";
@@ -33,13 +33,13 @@ fruits = ["apple", "banana", "cherry"]     # List
 x, y, z = fruits    # Unpacking of values
 ```
 
-For loop
+## Loops
+
+> **For loop**
 ```
 for (int i = 0; i < 5; i++) {
   cout << i << "\n";
 }
-
-
 ```
 ```
 fruits = ["apple", "banana", "cherry"]
@@ -63,11 +63,21 @@ for x in range(6):
 
 
 
-While Loop
+> **While Loop**
 
-Function
+## Functions
+```
+void myFunction(string fname) {
+  cout << fname << " Refsnes\n";
+}
+```
+```
+def my_function(fname, lname):
+  print(fname + " " + lname)
+my_function("Emil", "Refsnes")
+```
 
-Class
+## Classes
 
 
 
