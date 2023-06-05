@@ -68,6 +68,21 @@ if b > a:
 
 > **For loop**
 ```
+vector<int> v = { 1,4,6,8,10 };
+for (auto i : v) {
+      cout << i << endl;
+}
+
+map<string, int> b = { {"a", 1},{"b",2},{"c",3}};
+for (auto i : b) {
+      cout << i.first << " - " << i.second << endl;
+}
+
+string s = "qwerty";
+for (auto i : s) {
+      cout << i << endl;
+}
+
 for (int i = 0; i < 5; i++) {
   cout << i << "\n";
 }
@@ -91,10 +106,26 @@ for x in fruits:
 for x in range(6):
   print(x)
 ```
-
-
-
 > **While Loop**
+```
+int i = 0;
+while (i < 10) {
+      cout << "While loop: " << i << endl;
+      i++;
+}
+
+i = 0;
+do {
+      cout << "Do While loop: " << i << endl;
+      i++;
+} while (i < 10);
+```
+```
+i = 0
+while i < 10:
+  print("While loop: ", i)
+  i += 1
+```
 
 ## Functions
 ```
