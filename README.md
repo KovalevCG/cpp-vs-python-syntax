@@ -33,6 +33,37 @@ fruits = ["apple", "banana", "cherry"]     # List
 x, y, z = fruits    # Unpacking of values
 ```
 
+## Flow Control
+
+> **If ... Else**
+
+```
+if ( a > 5 ) {
+      m = m / 10;
+} else if ( a < -5) {
+      cout << m << endl;
+} else {
+      m = m * 10;
+}
+
+string result = (time < 18) ? "Good day" : "Good evening";
+```
+```
+if ( a > 5):
+      m = m / 10
+elif ( a < -5):
+      print (m)
+else:
+      m = m * 10
+
+result = "Good day" if (time < 18) else "Good evening"
+
+print("A") if a > b else print("B")
+
+if b > a:
+  pass
+```
+
 ## Loops
 
 > **For loop**
