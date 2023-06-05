@@ -129,14 +129,15 @@ while i < 10:
 
 ## Functions
 ```
-void myFunction(string fname) {
-  cout << fname << " Refsnes\n";
+void printName(string fname, string sname) {
+	cout << "Name: " << fname << ";  Surname: " << sname << endl;
 }
+printName("John", "Smith");
 ```
 ```
-def my_function(fname, lname):
-  print(fname + " " + lname)
-my_function("Emil", "Refsnes")
+def my_function(fname, sname):
+  print(fname + " " + sname)
+my_function("John", "Smith")
 ```
 
 ## Classes
